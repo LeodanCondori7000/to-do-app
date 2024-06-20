@@ -1,0 +1,69 @@
+/* app.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #070D59; /* Dark blue background */
+  color: #f1f1f1;
+  padding: 20px;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #1F3C88; /* Lighter blue container background */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todos {
+  background-color: #ffffff; /* White background for the todo list */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-text {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.input-text::placeholder {
+  color: #bbb;
+}
+
+.input-submit {
+  background-color: #F7B633; /* Yellow button */
+  color: #070D59; /* Dark blue text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-text,
+.input-submit {
+  margin: 5px;
+}
+
+.input-submit:hover {
+  background-color: #e0a22c; /* Darker yellow on hover */
+}
+
+.submit-warning {
+  color: #e74c3c; /* Red warning text */
+  margin-top: 10px;
+}

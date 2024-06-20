@@ -1,0 +1,40 @@
+/* TodoItem.module.scss */
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9; /* Light background for each item */
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.content span {
+  margin-left: 10px;
+  color: #070D59; /* Dark blue text */
+}
+
+.content button {
+  background-color: transparent;
+  border: none;
+  color: #5893D4; /* Blue button text */
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.content button:hover {
+  color: #3b6ba3; /* Darker blue on hover */
+}
+
+.textInput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
